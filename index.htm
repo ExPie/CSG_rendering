@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSG rendering</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="code/vector.js"></script>
+	<script type="text/javascript" src="code/scene.js"></script>
+	<script type="text/javascript" src="code/main.js"></script>
+</head>
+
+<body onload="main();">
+
+<canvas id="canvas" width="800" height="600"></canvas>
+
+<div>
+	<label for="slid1">Light X: </label>
+	<input id="slid1" type="range" min="1" max="100" value="50" onchange="updateSlider1(this.value)">	
+
+	<label for="slid1">Light Y: </label>
+	<input id="slid1" type="range" min="1" max="100" value="50" onchange="updateSlider2(this.value)">	
+
+	<label for="slid1">Light Z: </label>
+	<input id="slid1" type="range" min="1" max="100" value="50" onchange="updateSlider3(this.value)"> <br/>
+
+	<label for="slid1">Sphere 1 X: </label>
+	<input id="slid1" type="range" min="1" max="100" value="50" onchange="updateSlider4(this.value)"> <br/>	
+
+	<label for="slid1">Sphere 2 X: </label>
+	<input id="slid1" type="range" min="1" max="100" value="50" onchange="updateSlider5(this.value)"> <br/>	
+
+	<label for="slid1">Sphere 3 X: </label>
+	<input id="slid1" type="range" min="1" max="100" value="50" onchange="updateSlider6(this.value)"> <br/>	
+
+	<label for="slid1">Sphere 4 X: </label>
+	<input id="slid1" type="range" min="1" max="100" value="50" onchange="updateSlider7(this.value)"> <br/>	
+
+	<label for="slid1">Camera angle: </label>
+	<input id="slid1" type="range" min="0" max="360" value="0" onchange="updateSlider8(this.value)"> <br/>	
+	
+</div>
+
+
+</body>
+</html>
